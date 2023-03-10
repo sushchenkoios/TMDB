@@ -30,14 +30,14 @@
                                     <constraint firstAttribute="height" constant="40" id="oMg-jB-GIx"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Увійти">
+                                <buttonConfiguration key="configuration" style="filled" title="Sign in">
                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="12"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="Ki0-1D-4yR" kind="show" id="Col-q2-1u9"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ім’я користувача" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sm0-AU-NRx">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sm0-AU-NRx">
                                 <rect key="frame" x="60" y="288" width="273" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="TfW-ZU-QPe"/>
@@ -45,7 +45,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Пароль" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="st6-fo-AxV">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="st6-fo-AxV">
                                 <rect key="frame" x="60" y="366" width="273" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="LRl-Q1-6lO"/>
