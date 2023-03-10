@@ -1,2 +1,3 @@
 # TMDB
- TMDB iOS Application
+ TMDB iOS application still in development ...
+ 
