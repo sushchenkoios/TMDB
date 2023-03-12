@@ -167,36 +167,6 @@
             </objects>
             <point key="canvasLocation" x="-1616.030534351145" y="-798.59154929577471"/>
         </scene>
-        <!--Tv View Controller-->
-        <scene sceneID="i5c-ae-edp">
-            <objects>
-                <viewController id="A2r-yF-VeZ" customClass="TvViewController" customModule="TMDB_Project_v2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wq4-9f-sED">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Wpb-Mn-8tF">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="kUG-XL-Swk"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="Wpb-Mn-8tF" secondAttribute="bottom" id="1Ut-bV-whJ"/>
-                            <constraint firstItem="Wpb-Mn-8tF" firstAttribute="top" secondItem="wq4-9f-sED" secondAttribute="top" id="bLt-dD-oKk"/>
-                            <constraint firstItem="Wpb-Mn-8tF" firstAttribute="trailing" secondItem="kUG-XL-Swk" secondAttribute="trailing" id="fJA-U1-OSC"/>
-                            <constraint firstItem="Wpb-Mn-8tF" firstAttribute="leading" secondItem="kUG-XL-Swk" secondAttribute="leading" id="nuP-sY-Lh1"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="NVe-bj-nkh"/>
-                    <connections>
-                        <outlet property="tableView" destination="Wpb-Mn-8tF" id="PLL-Ns-twl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uxq-KX-gOZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1822" y="815"/>
-        </scene>
         <!--Favorites Media View Controller-->
         <scene sceneID="SfR-OT-0Sy">
             <objects>
@@ -402,7 +372,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hEd-g1-MeF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-689.3129770992366" y="-487.32394366197184"/>
+            <point key="canvasLocation" x="-776" y="-125"/>
         </scene>
         <!--Search-->
         <scene sceneID="5mh-nU-gxA">
@@ -433,7 +403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8sE-T1-K6P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="226.71755725190837" y="559.85915492957747"/>
+            <point key="canvasLocation" x="-1616" y="560"/>
         </scene>
         <!--Movies-->
         <scene sceneID="qHf-cx-hzx">
@@ -482,28 +452,6 @@
             </objects>
             <point key="canvasLocation" x="-2503" y="-125"/>
         </scene>
-        <!--Series-->
-        <scene sceneID="6ZV-lh-NR2">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HwW-rc-ZaO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Series" id="Mt5-mP-fjw">
-                        <imageReference key="image" image="film.stack" catalog="system" symbolScale="default"/>
-                    </tabBarItem>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BN3-BP-oZC">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <navigationBarAppearance key="compactAppearance"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="A2r-yF-VeZ" kind="relationship" relationship="rootViewController" id="u79-eT-0eO"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f5R-2n-miX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2953" y="815"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="jNw-bb-2Np">
             <objects>
@@ -541,15 +489,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cIV-tD-0vy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-689" y="561"/>
+            <point key="canvasLocation" x="-2503" y="560"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="FHo-KN-Gdd"/>
-    </designables>
     <resources>
         <image name="film" catalog="system" width="128" height="93"/>
-        <image name="film.stack" catalog="system" width="128" height="122"/>
         <image name="heart" catalog="system" width="128" height="107"/>
         <image name="heart.fill" catalog="system" width="128" height="107"/>
         <image name="log2" width="273.42001342773438" height="35.520000457763672"/>
